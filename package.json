@@ -1,0 +1,25 @@
+{
+  "name": "micro-kudos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/micro src/index.js",
+    "start-dev": "nodemon ./node_modules/.bin/micro src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "eslint-config-standard": "^6.2.1",
+    "micro": "^6.2.0",
+    "redis": "^2.6.5",
+    "shortid": "^2.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "eslint-config-standard": "^6.2.1"
+  }
+}
