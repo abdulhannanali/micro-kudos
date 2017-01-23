@@ -1,4 +1,5 @@
 # Micro Kudos
+Instance of the application deployed on now available [here](https://micro-kudos-zycpfowbly.now.sh/https://facebook.com?increment=true)
 
 <!--Badges come here-->
 [![micro logo](https://cldup.com/JDmmHX3uhF.svg)](https://github.com/zeit/micro)
@@ -29,7 +30,9 @@ Some other things that have a high priority are:
 - Add [Travis CI](https://travis-ci.org) build Task, in order to make sure, this project, is always working just fine
 - Redesign the application architecture and way the requests are being made in the application
 - Implement some of the well suited ideas in [idea.md](idea.md) while keeping the architecture simple as it's a microservice.
-- React to **1.0**
+- Work on better document for the operations used for this application
+- Make the database part, more modular and use adapters such as the one available for Micro Analytics.
+- Reach to **1.0**
 
 ### LICENSE
 MIT LICENSE. See [LICENSE](LICENSE) for more details
