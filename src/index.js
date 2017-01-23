@@ -10,9 +10,12 @@ const shortid = require('shortid')
  * Micro kudos let's you add kudos points
  */
 module.exports = async function (req, res) {
+  res.setHeader('Access-Control-Allow-Origin', '*')
+
   const { query, pathname } = url.parse(req.url, true)
   const { method } = req
   const urlKey = pathname && pathname.slice(1)
+
 
   if (!(method === 'GET' || method === 'POST')) {
     send(res, 400, 'The only supported methods are `GET` and `POST`')
@@ -78,7 +81,6 @@ async function incrementCount (url) {
  * @param {String} uid
  */
 async function decrementCount (url, uid) {
-  console.log(url)
   const op = await redis.hdelAsync(url, uid)
   return {
     decrement: op === 1,
