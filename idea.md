@@ -28,11 +28,6 @@ make a better use of this method support.
 - DELETE
 - PUT
 
-
-#### More data support
-
-More advanced features to be used can include
-
 #### Authentication support
 Connecting with a database, and reading the authentication tokens from the database,
 in order to only accept the requests if authenticated.
@@ -50,4 +45,6 @@ The operations such as getting the count of the urls should be enabled in batch,
 the count of the all the urls in a single request which will immensely reduce the round trips 
 we need to make to get the counts. 
 
-The batch operations can be in the form of POST requests which can be really helpful
+The batch operations can be in the form of POST requests specified in the body, which can help making 
+the requests more secure and descriptive
+
