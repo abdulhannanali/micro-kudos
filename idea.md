@@ -1,4 +1,4 @@
-# Description of the idea
+# Ideas we can work on
 
 Micro Kudos is going to be a JavaScript implementation in order to store the 
 Kudos for the users. It's architecture is going to be based on serverless micro functions,
