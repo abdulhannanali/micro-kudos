@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+    - "7"
+    - "6"
+install: npm install
+script:
+    ./node_modules/.bin/eslint src
+after_success:
+    echo "Wow it's successful'"
+after_failure:
+    echo "Wow it failed"
