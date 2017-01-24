@@ -10,3 +10,9 @@ after_success:
     echo "Wow it's successful'"
 after_failure:
     echo "Wow it failed"
+notifications:
+    email:
+        recipients:
+            - ali.abdulhannan@gmail.com
+        on_success: always
+        on_failure: always
