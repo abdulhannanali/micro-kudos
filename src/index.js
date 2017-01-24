@@ -16,7 +16,6 @@ module.exports = async function (req, res) {
   const { method } = req
   const urlKey = pathname && pathname.slice(1)
 
-
   if (!(method === 'GET' || method === 'POST')) {
     send(res, 400, 'The only supported methods are `GET` and `POST`')
   }
