@@ -4,6 +4,7 @@ Instance of the application deployed on now available [here](https://micro-kudos
 <!--Badges come here-->
 [![micro logo](https://cldup.com/JDmmHX3uhF.svg)](https://github.com/zeit/micro)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+![Travis CI Build Status](https://api.travis-ci.org/abdulhannanali/micro-kudos.svg?branch=master)
 
 A serverless Kudos microservice for site, along with a simple method to 
 take back the kudos too, by providing a randomly generated id, which 
