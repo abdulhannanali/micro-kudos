@@ -6,8 +6,8 @@ install: npm install
 before_script:
     npm install -g now
 script:
-    ./node_modules/.bin/eslint src
-    ./node_modules/.bin/jest
+    - ./node_modules/.bin/eslint src
+    - ./node_modules/.bin/jest
 after_success:
     echo "Wow it's successful'"
 after_failure:
