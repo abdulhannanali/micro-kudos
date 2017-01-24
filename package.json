@@ -18,7 +18,13 @@
     "redis": "^2.6.5",
     "shortid": "^2.2.6"
   },
+  "globals": [
+    "beforeEach",
+    "describe",
+    "it"
+  ],
   "devDependencies": {
+    "axios": "^0.15.3",
     "eslint": "^3.14.0",
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.4.0",

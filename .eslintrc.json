@@ -1,3 +1,9 @@
 {
+    "globals": {
+        "describe": true,
+        "it": true,
+        "beforeEach": true,
+        "expect": true
+    },
     "extends": "standard"
 }
