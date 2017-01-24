@@ -19,7 +19,7 @@ do in the future, modifications around the data structures we are using now, wil
 We use [Micro by Zeit](https://github.com/zeit/micro) as a backbone of this
 project. This project was inspired by Micro analytics which let's you collect simple analytics about your 
 website. The Micro kudos is similar but is more catered to (Like/Unlike) type of functionality.
-
+fucking shit up
 ## Contribution
 There are a few things that would be really awesome to have, check out [idea.md](idea.md). This project 
 needs more contributions and it would be awesome to see in a production ready environment, along with all
