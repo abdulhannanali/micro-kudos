@@ -13,8 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.7",
-    "eslint-config-standard": "^6.2.1",
-    "micro": "^6.2.0",
+    "eslint-config-standard": "^10.2.1",
+    "micro": "^9.0.1",
     "redis": "^2.6.5",
     "shortid": "^2.2.6"
   },
@@ -24,11 +24,11 @@
     "it"
   ],
   "devDependencies": {
-    "axios": "^0.15.3",
-    "eslint": "^3.14.0",
-    "eslint-config-standard": "^6.2.1",
+    "axios": "^0.17.1",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
     "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.1",
-    "jest": "^18.1.0"
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1"
   }
 }

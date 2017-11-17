@@ -1,4 +1,6 @@
 # Micro Kudos
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/abdulhannanali/micro-kudos.svg)](https://greenkeeper.io/)
 Instance of the application deployed on now available [here](https://micro-kudos-zycpfowbly.now.sh/https://facebook.com?increment=true)
 
 <!--Badges come here-->
